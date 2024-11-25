@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jo Smith Photography - Nature & General Photography Portfolio</title>
+    <meta name="description"
+        content="Explore the stunning portfolio of Jo Smith, a nature and general photographer from Dundee. Contact her for professional photography services and to book your session." />
+    <meta name="keywords"
+        content="Jo Smith, Dundee photography, nature photography, wedding photography, event photography, professional photographer" />
+    <meta name="robots" content="index, follow" />
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/steelfish?styles=10622" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3b5c3e7441.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!--  -->
+
+    <nav>
+        <div id="nav-menu-icon" class="hamburgerBtn">&#9776;</div>
+
+        <ul class="main-nav">
+
+            <li id="nav-closeBtn" class="closeBtn">&times</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="logo">Jo Smith</li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div class="hero-image-container">
+        <div class="hero-image-content">
+            <img src="images/heroImage1.jpg" alt="bride image" class="hero-image">
+        </div>
+    </div>
+    <div class="gallery-image-container">
+        <div class="gallery">
+            <img src="images/galleryImage1.jpg" alt="wedding image" class="gallery-image1">
+            <img src="images/galleryImage2.jpg" alt="wedding image" class="gallery-image2">
+        </div>
+        <div class="gallery">
+
+            <img src="images/galleryImage3.jpg" alt="wedding image" class="gallery-image3">
+            <img src="images/galleryImage4.jpg" alt="wedding image" class="gallery-image4">
+
+        </div>
+        <div class="gallery">
+
+            <img src="images/galleryImage5.jpg" alt="wedding image" class="gallery-image5">
+            <img src="images/galleryImage6.jpg" alt="wedding image" class="gallery-image6">
+
+        </div>
+        <div class="gallery">
+
+            <img src="images/galleryImage7.jpg" alt="wedding image" class="gallery-image7">
+        </div>
+        <div class="gallery">
+
+            <img src="images/galleryImage8.jpg" alt="wedding image" class="gallery-image9">
+            <img src="images/galleryImage9.jpg" alt="wedding image" class="gallery-image8">
+            <img src="images/galleryImage10.jpg" alt="wedding image" class="gallery-image10">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <div class="social-media-icons">
+                    <a class="icon" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                    </a>
+                    <a class="icon" href="https://x.com/" target="_blank" aria-label="Twitter">
+                        <i class="fa-sharp fa-solid fa-x fa-beat-fade"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+
+                <p>987 Brook Street</p>
+                <p>Dundee</p>
+                <p>DD5 2EA</p>
+
+                <p>email: Jophotography@gmail.com</p>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright" id="year"></p>
+    </footer>
+
+
+    <script src="js/header.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".gallery img").hover(function () {
+                $(this).css("filter", "brightness(80%)");
+            }, function () {
+                $(this).css("filter", "brightness(100%)");
+            });
+        });
+    </script>
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jo Smith Photography</title>
+    <meta name="description"
+        content="Jo Smith is a nature and general photographer from Dundee. View her portfolio and contact her for professional photography services." />
+    <meta name="keywords"
+        content="Dundee, photography, nature photography, wedding photographer,event photography, professional photographer, Jo Smith" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/steelfish?styles=10622" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3b5c3e7441.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <!-- <link rel="stylesheet" href="css/index.css" /> -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    </style>
+</head>
+
+<body>
+
+    <!--  -->
+
+    <nav>
+        <div id="nav-menu-icon" class="hamburgerBtn">&#9776;</div>
+
+        <ul class="main-nav">
+
+            <li id="nav-closeBtn" class="closeBtn">&times</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="logo">Jo Smith</li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <!--  -->
+    <section class="main-container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h1 id="contact-heading">GET IN TOUCH WITH US</h1>
+                <p class="contact-text">
+                    For inquiries, bookings, or sharing your experience, contact Jo Smith Photography. Our team is
+                    dedicated to your
+                    satisfaction and providing a delightful photography experience. We value your feedback and look
+                    forward to connecting
+                    with you soon.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="contact-details-wrapper">
+        <div class="contact-details">
+            <a id="open" class="location-icon">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>987 Brook Street
+
+                    Dundee
+
+                    DD5 2EA</p>
+            </a>
+        </div>
+        <div class="contact-details">
+            <a href="mailto:contact@dignans.com" class="email-icon">
+                <i class="far fa-envelope"></i>
+                <p>Jophotography@gmail.com</p>
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <form class="form" onsubmit=" return validateForm()">
+        <div id="form-items" class="form-items">
+            <label for="name">Enter your name please</label>
+            <input type="text" id="name" placeholder="Name" minlength="5" maxlength="10">
+            <span id="nameError"></span>
+
+            <label for="email">Enter your email please</label>
+            <input type="text" placeholder="email" id="email">
+            <span id="emailError"></span>
+
+
+            <label for="email">Message</label>
+            <textarea id="message" name="textarea" cols="50" rows="10"></textarea>
+
+            <span id="messageError"></span>
+            <button class="Submit" id="sub_btn">Submit</button>
+        </div>
+    </form>
+
+
+
+    <div class="modal" id="map-modal">
+        <div class="close-btn" id="close">&#x2715;</div>
+
+        <div class="google-map">
+            <!--  -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2204.1584931634707!2d-2.8671225870366275!3d56.46503053679758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48865e96e548488d%3A0x652981c5a1436741!2s987%20Brook%20St%2C%20Broughty%20Ferry%2C%20Dundee%20DD5%202EA!5e0!3m2!1sen!2suk!4v1727867551729!5m2!1sen!2suk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--  -->
+
+        </div>
+
+        <div class="street-view">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!4v1727983966475!6m8!1m7!1s1-AKk-0bGL2B-TB7IxbEcQ!2m2!1d56.46499740909259!2d-2.864265657284844!3f303.3208795067768!4f0!5f0.7820865974627469"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+    </div>
+    <!--  -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <div class="social-media-icons">
+                    <a class="icon" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                    </a>
+                    <a class="icon" href="https://x.com/" target="_blank" aria-label="Twitter">
+                        <i class="fa-sharp fa-solid fa-x fa-beat-fade"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+
+                <p>987 Brook Street</p>
+                <p>Dundee</p>
+                <p>DD5 2EA</p>
+
+                <p>email: Jophotography@gmail.com</p>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright" id="year"></p>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/map.js"></script>
+
+</body>
+
+
+</html>

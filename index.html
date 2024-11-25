@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jo Smith Photography</title>
+    <meta name="description"
+        content="Jo Smith is a nature and general photographer from Dundee. View her portfolio and contact her for professional photography services." />
+    <meta name="keywords"
+        content="Dundee, photography, nature photography, wedding photographer,event photography, professional photographer, Jo Smith" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/steelfish?styles=10622" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3b5c3e7441.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <!-- <link rel="stylesheet" href="css/index.css" /> -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    </style>
+</head>
+
+<body>
+
+    <!--  -->
+
+    <nav>
+        <div id="nav-menu-icon" class="hamburgerBtn">&#9776;</div>
+
+        <ul class="main-nav">
+
+            <li id="nav-closeBtn" class="closeBtn">&times</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="logo">Jo Smith</li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main class="slideshow-section">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+
+                <img class="slide-show-image" src="images/slideShowImage1.jpg" alt="wedding image" />
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slide-show-image" src="images/slideShowImage2.jpg" alt="wedding image" />
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slide-show-image" src="images/slideShowImage3.jpg" alt="wedding image" />
+            </div>
+            <div class="mySlides fade">
+                <img class="slide-show-image" src="images/slideShowImage4.jpg" alt="wedding image" />
+            </div>
+            <div class="mySlides fade">
+                <img class="slide-show-image" src="images/slideShowImage5.jpg" alt="wedding image" />
+            </div>
+            <div class="mySlides fade">
+                <img class="slide-show-image" src="images/slideShowImage6.jpg" alt="wedding image" />
+            </div>
+        </div>
+
+    </main>
+    <div class="dot-container" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <section class="about-container">
+        <div class="about-image">
+            <img src="images/jo-smith.jpg" alt="jo smith ">
+        </div>
+        <div class="about-text">
+            <h1>HI, MY NAME IS JO SMITH!</h1>
+            <p>As a Dundee native and a passionate photographer, I hold a degree in Photography from the local
+                university.
+                Specializing in nature photography, my work showcases the beauty of the outdoors, a reflection of my
+                deep connection
+                with nature.
+
+                With years of experience, I have honed a unique style that captures the beauty and emotion of each
+                couple's special
+                day, blending timeless and modern elements. My goal as your wedding photographer is to create images
+                that will
+                forever transport you back to your unforgettable wedding moments.
+
+                Inspired by Dundee's stunning landscapes, my journey in photography began at a young age. My dedication
+                and talent
+                have earned me recognition and admiration, with my work featured in local exhibitions. I continue to
+                expand my
+                portfolio with exciting new projects, constantly seeking to push the boundaries of my craft.</p>
+
+        </div>
+
+    </section>
+    <div class="scroll-container-heading">
+        <h2>RECENT WORK</h2>
+    </div>
+
+    <div class="scroll-container" id="scroll-container">
+
+        <img src="images/homeImage1.jpg" alt="wedding image">
+        <img src="images/homeImage2.jpg" alt="wedding image">
+        <img src="images/homeImage3.jpg" alt="wedding image">
+        <img src="images/homeImage4.jpg" alt="wedding image">
+        <img src="images/homeImage5.jpg" alt="wedding image">
+        <img src="images/homeImage6.jpg" alt="wedding image">
+        <img src="images/homeImage7.jpg" alt="wedding image">
+
+    </div>
+    <h3 class="review-heading">KIND WORDS</h3>
+    <div class="review-wrapper">
+
+        <div class="review-content">
+            <div class="review-text" id="review-text">"I had an excellent experience with this product! The quality is
+                top-notch, and the
+                customer
+                service was outstanding. Highly recommend to anyone looking for great value and service."</div>
+            <div class="customer-info">
+                <img id="customer-photo" src="images/reviewImage1.jpg" alt="Customer Photo" class="customer-photo">
+
+            </div>
+            <div class="customer-list">
+                <span class="customer-item" onclick="changeReview(0)">Rachel Callum</span>
+                <span class="customer-item" onclick="changeReview(1)">Claire Liam</span>
+                <span class="customer-item" onclick="changeReview(2)">Emma Scott</span>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <div class="social-media-icons">
+                    <a class="icon" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                    </a>
+                    <a class="icon" href="https://x.com/" target="_blank" aria-label="Twitter">
+                        <i class="fa-sharp fa-solid fa-x fa-beat-fade"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+
+                <p>987 Brook Street</p>
+                <p>Dundee</p>
+                <p>DD5 2EA</p>
+
+                <p>email: Jophotography@gmail.com</p>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright" id="year"></p>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/scrollEffect.js"></script>
+    <script src="js/testimonial.js"></script>
+</body>
+
+
+</html>
